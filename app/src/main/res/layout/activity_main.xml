@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/action_write_shared_image"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="保存【共享媒体】目录文件" />
+
+    <Button
+        android:id="@+id/action_read_shared_images"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="读取【共享媒体】目录文件" />
+
+    <Button
+        android:id="@+id/action_delete_media"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="删除【共享媒体】目录文件" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="------------------------------------------------------------------"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/action_save_shared_document"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SAF 保存【共享文档】目录文件" />
+
+    <Button
+        android:id="@+id/action_read_document"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SAF 读取【共享文档】目录文件" />
+
+
+    <Button
+        android:id="@+id/action_delete_document"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SAF 删除【共享文档】目录文件" />
+</LinearLayout>
